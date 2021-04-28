@@ -9,10 +9,10 @@ var computer;
 //Creo 6 numeri random sia per il giocatore che per il computer
 
 giocatore = Math.floor(Math.random() * 6 + 1);
-console.log(giocatore);
+console.log("Il numero del giocatore è: ", giocatore);
 
 computer = Math.floor(Math.random() * 6 + 1);
-console.log(computer);
+console.log("Il numero del computer è: ", computer);
 
 //Istruzioni condizionali
 
