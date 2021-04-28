@@ -31,9 +31,9 @@ document.getElementById("numero_giocatore").innerHTML = "Il tuo numero è: " + g
 document.getElementById("numero_computer").innerHTML = "Il numero del computer è: " + computer;
 
 if (giocatore > computer) {
-    document.getElementById("message").innerHTML = "Congratulazioni! Hai vinto!"
+    document.getElementById("message").innerHTML = "Congratulazioni! Hai vinto!!"
 } else if (giocatore == computer) {
-    document.getElementById("message").innerHTML = "Pareggio!"
+    document.getElementById("message").innerHTML = "Pareggio!!"
 } else {
-    document.getElementById("message").innerHTML = "Mi dispiace, hai perso!"
+    document.getElementById("message").innerHTML = "Mi dispiace, hai perso!!"
 }
